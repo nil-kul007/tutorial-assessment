@@ -1,0 +1,110 @@
+
+@import "~video-react/styles/scss/video-react"; 
+.ui-lib {
+  .col {
+    border: solid 1px;
+  }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  color: #1e2022;
+}
+
+.video-tutorial {
+  border: solid 1px #b5b5b5;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 19px;
+  margin: 15px 25px;
+  .title {
+    color: #6d6c6c;
+  }
+  .sub-title {
+    color: #2c86c5;
+  }
+  p {
+    margin: auto;
+    padding: 10px;
+  }
+}
+.videoplayer {
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.course-details {
+  border: solid 1px #b5b5b5;
+  border-radius: 20px;
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+.course-list {
+  .image{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 4px 5px #888888;
+    float: left;
+  }
+  .list-item {
+    border-radius: 20px;
+    height: 85px;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+  .module-number {
+    color: #d02392;
+    font-weight: bold;
+  }
+  .module-name {
+    color: #2c86c5;
+  }
+  .module-duration {
+    font-size: 14px;
+    position: relative;
+    float: right;
+  }
+  .introduction {
+    margin-top: 12px;
+  }
+  p {
+    margin-left: 20%;
+  }
+}
+
+.description {
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #6d6c6c
+}
+.experts-panel {
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #6d6c6c
+}
+.experts-panel {
+  text-align: center;
+  h2 {
+    text-align: left;
+  }
+  .title {
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #2c86c5;
+  }
+  .subtitle {
+    font-size: 14px;
+    color: #d02392;
+  }
+  img {
+    width: 150px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+  }
+}
