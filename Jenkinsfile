@@ -9,6 +9,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'npm install' 
+                zh 'npm run test'
                 sh 'npm run build'
             }
         }
